@@ -1,0 +1,28 @@
+---
+author: Sarah
+date: '2011-06-06 11:56:45'
+layout: post
+slug: easy-a
+status: publish
+title: Easy A
+wordpress_id: '364'
+categories: agile
+---
+
+I have heard the car metaphor many times before - you know the one - "are we building a ford, or a ferrari?". But that metaphor though has never really sat well with me - I couldn't relate to it, and everyone always says "oh no, we are building a ford" and then proceed to describe the bells and whistles. Lately, I have started to look at other metaphors, and I have found one that is currently working for me.
+
+At school, there were some subjects that I really wanted to do well in, and get As. Then there were subjects that I needed to take for prerequisites, but all I needed was to pass, so a C in that (or even a D) was perfectly fine by me. 
+
+When we develop software, there are some features that we really want to do well in and get right - these are our distinguishers. Then, there are other features that we just need to (e.g. to keep up with the market), but they don't distinguish us from our competitors, so we want to spend only enough effort to get it in, without doing something distinguishing.
+
+At school, there were also subjects that were basically easy As - I could put very little effort into studying for them, and I could take home top marks. Then, there also subjects that no matter how hard I studying, how much effort I put in, all I could pull off was a C.
+
+When we develop software, there are some features that we can do really well at, for minimum effort. Then, there are features that are really trying to get in, and when we do, they might be a bit clunky or constantly requiring effort to maintain.
+
+At school, there was also a limit to the number of subjects I could study at once. If I took more subjects then my normal limit, then they would all suffer - even the easy A weren't so achievable. And I swapping between them all the time was difficult, so I would dedicate time to study on one at a time (usually half a day before I switched).
+
+I think you can see where I am going...fill in the blanks about Work in Progress limits and "multi"-tasking.
+
+So, thinking about stories and requests as school grades now gives a different perspective to prioritisation and valuing. We can start talking about getting outstanding As or just passing, about how some stories are easy to do well at (so let's just do them) and others will take an effort to just pass (is that effort worth it in the end? Perhaps the time could be used for other features?). And for me, this metaphor is much more accessible - I have been there, I remember what it was like to study hard for subjects and get no where, and others be really easy and I remember prioritising my subjects based on how difficult it was (a really hard subject taken with an easy subject was the way to do it).
+
+So - what grade would you like for that?
