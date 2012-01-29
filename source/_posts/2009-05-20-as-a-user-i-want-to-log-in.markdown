@@ -2,6 +2,7 @@
 author: Sarah
 date: '2009-05-20 18:53:52'
 layout: post
+comments: true
 slug: as-a-user-i-want-to-log-in
 status: publish
 title: As a user I want to Log In

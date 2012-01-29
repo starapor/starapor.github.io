@@ -2,6 +2,7 @@
 author: Sarah
 date: '2008-09-24 06:45:00'
 layout: post
+comments: true
 slug: how-many-os-in-woolloomooloo
 status: publish
 title: How many O's in Woolloomooloo*

@@ -2,6 +2,7 @@
 author: Sarah
 date: '2008-10-06 06:48:52'
 layout: post
+comments: true
 slug: what-is-agile
 status: publish
 title: What is Agile?

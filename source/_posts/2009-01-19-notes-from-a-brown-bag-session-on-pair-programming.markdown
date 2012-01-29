@@ -2,6 +2,7 @@
 author: Sarah
 date: '2009-01-19 08:02:53'
 layout: post
+comments: true
 slug: notes-from-a-brown-bag-session-on-pair-programming
 status: publish
 title: Notes from a brown bag session on Pair Programming

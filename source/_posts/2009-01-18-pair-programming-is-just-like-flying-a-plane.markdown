@@ -2,6 +2,7 @@
 author: Sarah
 date: '2009-01-18 22:34:52'
 layout: post
+comments: true
 slug: pair-programming-is-just-like-flying-a-plane
 status: publish
 title: Pair programming is just like flying a plane

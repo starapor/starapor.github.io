@@ -2,6 +2,7 @@
 author: Sarah
 date: '2009-03-24 08:15:33'
 layout: post
+comments: true
 slug: happy-ada-lovelace-day
 status: publish
 title: Happy Ada Lovelace Day

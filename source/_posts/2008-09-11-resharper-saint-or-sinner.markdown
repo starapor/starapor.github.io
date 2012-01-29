@@ -2,6 +2,7 @@
 author: Sarah
 date: '2008-09-11 06:32:00'
 layout: post
+comments: true
 slug: resharper-saint-or-sinner
 status: publish
 title: ReSharper - Saint or Sinner

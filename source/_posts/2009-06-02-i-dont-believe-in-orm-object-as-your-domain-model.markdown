@@ -2,6 +2,7 @@
 author: Sarah
 date: '2009-06-02 22:45:31'
 layout: post
+comments: true
 slug: i-dont-believe-in-orm-object-as-your-domain-model
 status: publish
 title: I don't believe in ORM object as your domain model

@@ -2,6 +2,7 @@
 author: Sarah
 date: '2009-09-27 15:49:48'
 layout: post
+comments: true
 slug: how-to-refactor-like-a-something-star
 status: publish
 title: How to Refactor like a Something star

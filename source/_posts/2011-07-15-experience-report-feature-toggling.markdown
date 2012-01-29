@@ -2,6 +2,7 @@
 author: Sarah
 date: '2011-07-15 05:59:30'
 layout: post
+comments: true
 slug: experience-report-feature-toggling
 status: publish
 title: 'Experience Report: Feature Toggling'

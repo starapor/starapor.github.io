@@ -2,6 +2,7 @@
 author: Sarah
 date: '2010-11-24 22:20:57'
 layout: post
+comments: true
 slug: how-gender-stereotypes-influence-emerging-career-aspirations
 status: publish
 title: How Gender Stereotypes Influence Emerging Career Aspirations

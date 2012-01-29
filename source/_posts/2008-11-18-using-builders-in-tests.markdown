@@ -2,6 +2,7 @@
 author: Sarah
 date: '2008-11-18 20:03:05'
 layout: post
+comments: true
 slug: using-builders-in-tests
 status: publish
 title: Using Builders in Tests

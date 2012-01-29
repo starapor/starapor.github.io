@@ -2,6 +2,7 @@
 author: Sarah
 date: '2009-09-27 11:45:57'
 layout: post
+comments: true
 slug: pairing-101-skills-matter
 status: publish
 title: 'Pairing 101: Skills Matter'

@@ -2,6 +2,7 @@
 author: Sarah
 date: '2008-08-26 14:41:00'
 layout: post
+comments: true
 slug: test-names-go-wild
 status: publish
 title: Test names go wild

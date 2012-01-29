@@ -2,6 +2,7 @@
 author: Sarah
 date: '2008-11-14 08:54:53'
 layout: post
+comments: true
 slug: women-in-technology-who-cares-i-do
 status: publish
 title: Women in Technology - who cares? I do.

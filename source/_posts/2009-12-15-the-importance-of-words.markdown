@@ -2,6 +2,7 @@
 author: Sarah
 date: '2009-12-15 08:33:27'
 layout: post
+comments: true
 slug: the-importance-of-words
 status: publish
 title: The Importance of Words

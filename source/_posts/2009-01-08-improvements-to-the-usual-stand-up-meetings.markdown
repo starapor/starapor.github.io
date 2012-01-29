@@ -2,6 +2,7 @@
 author: Sarah
 date: '2009-01-08 08:40:14'
 layout: post
+comments: true
 slug: improvements-to-the-usual-stand-up-meetings
 status: publish
 title: Improvements to the usual stand up meetings

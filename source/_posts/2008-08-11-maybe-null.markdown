@@ -2,6 +2,7 @@
 author: Sarah
 date: '2008-08-11 21:15:00'
 layout: post
+comments: true
 slug: maybe-null
 status: publish
 title: Maybe null

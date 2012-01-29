@@ -2,6 +2,7 @@
 author: Sarah
 date: '2008-12-04 22:11:41'
 layout: post
+comments: true
 slug: tdd-does-not-mean-test-first
 status: publish
 title: TDD does not mean Test First

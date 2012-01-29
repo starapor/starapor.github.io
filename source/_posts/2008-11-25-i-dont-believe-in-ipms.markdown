@@ -2,6 +2,7 @@
 author: Sarah
 date: '2008-11-25 08:38:06'
 layout: post
+comments: true
 slug: i-dont-believe-in-ipms
 status: publish
 title: I don't believe in IPMs

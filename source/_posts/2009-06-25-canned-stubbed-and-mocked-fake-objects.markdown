@@ -2,6 +2,7 @@
 author: Sarah
 date: '2009-06-25 22:16:42'
 layout: post
+comments: true
 slug: canned-stubbed-and-mocked-fake-objects
 status: publish
 title: Canned, Stubbed and Mocked Fake Objects

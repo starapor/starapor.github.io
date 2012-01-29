@@ -2,6 +2,7 @@
 author: Sarah
 date: '2009-05-25 15:48:51'
 layout: post
+comments: true
 slug: coding-tip-27-turning-bools-into-enums
 status: publish
 title: 'Coding Tip #27: turning bools into enums'

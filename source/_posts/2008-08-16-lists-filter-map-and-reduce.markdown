@@ -2,6 +2,7 @@
 author: Sarah
 date: '2008-08-16 07:56:00'
 layout: post
+comments: true
 slug: lists-filter-map-and-reduce
 status: publish
 title: 'Lists: Filter, Map and Reduce'

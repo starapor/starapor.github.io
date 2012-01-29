@@ -2,6 +2,7 @@
 author: Sarah
 date: '2009-10-13 07:14:11'
 layout: post
+comments: true
 slug: slippers-introduction
 status: publish
 title: 'Slippers: Introduction'

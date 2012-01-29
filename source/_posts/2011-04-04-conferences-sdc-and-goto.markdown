@@ -2,6 +2,7 @@
 author: Sarah
 date: '2011-04-04 06:47:59'
 layout: post
+comments: true
 slug: conferences-sdc-and-goto
 status: publish
 title: 'Conferences: SDC and GoTo'

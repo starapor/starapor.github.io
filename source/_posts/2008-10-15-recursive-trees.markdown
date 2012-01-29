@@ -2,6 +2,7 @@
 author: Sarah
 date: '2008-10-15 20:53:12'
 layout: post
+comments: true
 slug: recursive-trees
 status: publish
 title: Recursive Trees

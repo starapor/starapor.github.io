@@ -2,6 +2,7 @@
 author: Sarah
 date: '2011-03-04 08:16:26'
 layout: post
+comments: true
 slug: ted-talk-sheryl-sandberg-why-we-have-too-few-women-leaders
 status: publish
 title: 'TED Talk: Sheryl Sandberg: Why we have too few women leaders'

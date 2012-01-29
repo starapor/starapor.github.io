@@ -2,6 +2,7 @@
 author: Sarah
 date: '2010-01-31 21:09:48'
 layout: post
+comments: true
 slug: working-with-integration-points-anticorruption-layer
 status: publish
 title: 'Working With Integration Points: Anticorruption Layer'

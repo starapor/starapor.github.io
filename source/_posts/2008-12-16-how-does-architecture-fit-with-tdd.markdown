@@ -2,6 +2,7 @@
 author: Sarah
 date: '2008-12-16 21:12:25'
 layout: post
+comments: true
 slug: how-does-architecture-fit-with-tdd
 status: publish
 title: How does Architecture fit with TDD

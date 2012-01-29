@@ -2,6 +2,7 @@
 author: Sarah
 date: '2009-03-26 13:50:28'
 layout: post
+comments: true
 slug: what-is-rest
 status: publish
 title: What is REST?

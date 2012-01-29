@@ -2,6 +2,7 @@
 author: Sarah
 date: '2009-10-18 14:06:09'
 layout: post
+comments: true
 slug: jaoo-and-women
 status: publish
 title: JAOO and Women

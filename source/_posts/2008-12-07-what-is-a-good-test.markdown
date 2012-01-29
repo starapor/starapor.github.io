@@ -2,6 +2,7 @@
 author: Sarah
 date: '2008-12-07 10:19:40'
 layout: post
+comments: true
 slug: what-is-a-good-test
 status: publish
 title: What is a good test?

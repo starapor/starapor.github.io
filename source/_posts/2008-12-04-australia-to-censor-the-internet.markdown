@@ -2,6 +2,7 @@
 author: Sarah
 date: '2008-12-04 08:37:15'
 layout: post
+comments: true
 slug: australia-to-censor-the-internet
 status: publish
 title: Australia to censor the internet

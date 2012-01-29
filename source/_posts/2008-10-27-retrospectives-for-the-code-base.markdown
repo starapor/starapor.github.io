@@ -2,6 +2,7 @@
 author: Sarah
 date: '2008-10-27 06:49:14'
 layout: post
+comments: true
 slug: retrospectives-for-the-code-base
 status: publish
 title: Retrospectives for the code base

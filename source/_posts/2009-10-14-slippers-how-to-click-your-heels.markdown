@@ -2,6 +2,7 @@
 author: Sarah
 date: '2009-10-14 07:13:28'
 layout: post
+comments: true
 slug: slippers-how-to-click-your-heels
 status: publish
 title: 'Slippers: How to click your heels'

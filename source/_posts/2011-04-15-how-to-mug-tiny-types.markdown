@@ -2,6 +2,7 @@
 author: Sarah
 date: '2011-04-15 16:05:49'
 layout: post
+comments: true
 slug: how-to-mug-tiny-types
 status: publish
 title: How to Mug Tiny Types

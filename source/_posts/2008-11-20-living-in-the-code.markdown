@@ -2,6 +2,7 @@
 author: Sarah
 date: '2008-11-20 07:47:25'
 layout: post
+comments: true
 slug: living-in-the-code
 status: publish
 title: Living in the code

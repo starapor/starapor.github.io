@@ -2,6 +2,7 @@
 author: Sarah
 date: '2011-07-08 12:45:06'
 layout: post
+comments: true
 slug: experience-report-branch-by-feature
 status: publish
 title: 'Experience Report: Branch by Feature'

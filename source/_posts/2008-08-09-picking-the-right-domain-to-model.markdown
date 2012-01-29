@@ -2,6 +2,7 @@
 author: Sarah
 date: '2008-08-09 17:35:00'
 layout: post
+comments: true
 slug: picking-the-right-domain-to-model
 status: publish
 title: Picking the right domain to model

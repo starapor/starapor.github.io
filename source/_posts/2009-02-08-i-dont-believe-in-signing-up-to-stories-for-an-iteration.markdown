@@ -2,6 +2,7 @@
 author: Sarah
 date: '2009-02-08 11:23:16'
 layout: post
+comments: true
 slug: i-dont-believe-in-signing-up-to-stories-for-an-iteration
 status: publish
 title: I don't believe in signing up to stories for an iteration

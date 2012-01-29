@@ -2,6 +2,7 @@
 author: Sarah
 date: '2009-01-06 14:56:25'
 layout: post
+comments: true
 slug: a-new-take-on-the-hot-air-balloon-retrospective
 status: publish
 title: A New Take on the Hot Air Balloon Retrospective

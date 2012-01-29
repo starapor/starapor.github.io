@@ -2,6 +2,7 @@
 author: Sarah
 date: '2010-01-31 12:10:12'
 layout: post
+comments: true
 slug: i-dont-believe-in-nfrs
 status: publish
 title: I don't believe in NFRs

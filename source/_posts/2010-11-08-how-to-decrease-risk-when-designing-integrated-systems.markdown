@@ -2,6 +2,7 @@
 author: Sarah
 date: '2010-11-08 22:07:32'
 layout: post
+comments: true
 slug: how-to-decrease-risk-when-designing-integrated-systems
 status: publish
 title: How to decrease risk when designing integrated systems

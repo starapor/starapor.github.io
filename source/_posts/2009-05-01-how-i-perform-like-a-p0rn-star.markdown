@@ -2,6 +2,7 @@
 author: Sarah
 date: '2009-05-01 08:03:22'
 layout: post
+comments: true
 slug: how-i-perform-like-a-p0rn-star
 status: publish
 title: How I Perform like a p0rn star

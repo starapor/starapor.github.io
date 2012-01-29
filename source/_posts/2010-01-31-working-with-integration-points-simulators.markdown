@@ -2,6 +2,7 @@
 author: Sarah
 date: '2010-01-31 22:03:10'
 layout: post
+comments: true
 slug: working-with-integration-points-simulators
 status: publish
 title: 'Working With Integration Points: Simulators'

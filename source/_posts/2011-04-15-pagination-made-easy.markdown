@@ -2,6 +2,7 @@
 author: Sarah
 date: '2011-04-15 15:37:39'
 layout: post
+comments: true
 slug: pagination-made-easy
 status: publish
 title: Pagination Made Easy

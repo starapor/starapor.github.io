@@ -2,6 +2,7 @@
 author: Sarah
 date: '2009-04-01 06:47:21'
 layout: post
+comments: true
 slug: youtube-is-flipped
 status: publish
 title: YouTube is Flipped

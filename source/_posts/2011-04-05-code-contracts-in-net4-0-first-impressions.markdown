@@ -2,6 +2,7 @@
 author: Sarah
 date: '2011-04-05 14:44:37'
 layout: post
+comments: true
 slug: code-contracts-in-net4-0-first-impressions
 status: publish
 title: 'Code Contracts in .Net4.0: First impressions'

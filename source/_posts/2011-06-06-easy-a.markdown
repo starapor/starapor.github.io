@@ -2,6 +2,7 @@
 author: Sarah
 date: '2011-06-06 11:56:45'
 layout: post
+comments: true
 slug: easy-a
 status: publish
 title: Easy A

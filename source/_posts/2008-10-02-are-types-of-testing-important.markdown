@@ -2,6 +2,7 @@
 author: Sarah
 date: '2008-10-02 20:45:08'
 layout: post
+comments: true
 slug: are-types-of-testing-important
 status: publish
 title: Are types of testing important?

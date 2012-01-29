@@ -2,6 +2,7 @@
 author: Sarah
 date: '2008-12-07 10:20:02'
 layout: post
+comments: true
 slug: a-conversation-with-a-tdder
 status: publish
 title: A conversation with a TDDer

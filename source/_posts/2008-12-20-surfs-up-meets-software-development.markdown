@@ -2,6 +2,7 @@
 author: Sarah
 date: '2008-12-20 23:09:04'
 layout: post
+comments: true
 slug: surfs-up-meets-software-development
 status: publish
 title: Surf's Up meets Software Development

@@ -2,6 +2,7 @@
 author: Sarah
 date: '2009-10-18 22:32:41'
 layout: post
+comments: true
 slug: jaoo-and-women-attendance-at-conferences
 status: publish
 title: 'JAOO and Women: Attendance at Conferences'

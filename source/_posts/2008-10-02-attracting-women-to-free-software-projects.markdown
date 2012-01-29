@@ -2,6 +2,7 @@
 author: Sarah
 date: '2008-10-02 19:17:22'
 layout: post
+comments: true
 slug: attracting-women-to-free-software-projects
 status: publish
 title: Attracting women to free software projects

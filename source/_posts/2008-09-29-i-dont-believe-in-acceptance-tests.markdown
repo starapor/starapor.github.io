@@ -2,6 +2,7 @@
 author: Sarah
 date: '2008-09-29 06:44:44'
 layout: post
+comments: true
 slug: i-dont-believe-in-acceptance-tests
 status: publish
 title: I don't believe in Acceptance Tests

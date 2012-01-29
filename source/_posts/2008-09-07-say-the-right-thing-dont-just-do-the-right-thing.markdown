@@ -2,6 +2,7 @@
 author: Sarah
 date: '2008-09-07 09:48:00'
 layout: post
+comments: true
 slug: say-the-right-thing-dont-just-do-the-right-thing
 status: publish
 title: Say the right thing - don't just do the right thing.

@@ -2,6 +2,7 @@
 author: Sarah
 date: '2008-08-10 06:56:00'
 layout: post
+comments: true
 slug: jquery-is-your-friend
 status: publish
 title: JQuery is your friend

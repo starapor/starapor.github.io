@@ -2,6 +2,7 @@
 author: Sarah
 date: '2009-05-11 13:17:25'
 layout: post
+comments: true
 slug: making-c-ilist-useable
 status: publish
 title: Making C# IList Useable

@@ -2,6 +2,7 @@
 author: Sarah
 date: '2009-06-29 06:20:04'
 layout: post
+comments: true
 slug: coding-tip-42-turning-enums-into-classes
 status: publish
 title: 'Coding Tip #42: turning enums into classes'
