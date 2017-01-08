@@ -7,7 +7,7 @@ slug: retrospectives-for-the-code-base
 status: publish
 title: Retrospectives for the code base
 wordpress_id: '79'
-categories: Uncategorized
+categories: uncategorized
 ---
 
 At the conclusion of a lot of projects, we conduct retrospectives in order to gain a deeper understanding of the success factors of the project, discuss what could be improved and how to incorporate these into future projects.

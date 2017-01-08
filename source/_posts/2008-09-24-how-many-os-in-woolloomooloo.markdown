@@ -7,7 +7,7 @@ slug: how-many-os-in-woolloomooloo
 status: publish
 title: How many O's in Woolloomooloo*
 wordpress_id: '54'
-categories: Uncategorized
+categories: uncategorized
 ---
 
 <div>I am often asked how to pronounce my surname. It's not too difficult, but for your benefit, I will now attempt at a phonetic guide to my last name. </div>

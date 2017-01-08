@@ -144,6 +144,7 @@ public class TreasureController : Controller
 
 <strong>View</strong>
 ``` html
+//
 <div>
 	<span>There are currently <span class="treasure-count"><%= Pages.MaximumCount %></span> treasures available.</span>
 </div>
@@ -198,4 +199,4 @@ function SetupPagination() {
 		if (key == 13) { $('a#paginateDirectly').click(); }       
 	});
 }
-``` 
+```
