@@ -10,7 +10,7 @@ wordpress_id: '7'
 categories: design
 ---
 
-Lately, I have had the opportunity to add some pretty funky usability behaviour on websites thanks to [JQuery]((http://jquery.com/) and some UI Plugins.
+Lately, I have had the opportunity to add some pretty funky usability behaviour on websites thanks to [JQuery](http://jquery.com/) and some UI Plugins.
 
 If you haven't used JQuery before - start now. It is really simple to add some really cool behaviour. Need to find all the checkboxes on your page? Then `$('input[type="checkbox"]')` returns the list of them. Methods are also chained, which can often make long unreadable javascript files more concise, and more verbose at the same time.
 
