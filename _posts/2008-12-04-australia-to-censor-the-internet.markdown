@@ -7,7 +7,7 @@ slug: australia-to-censor-the-internet
 status: publish
 title: Australia to censor the internet
 wordpress_id: '104'
-categories: uncategorized
+categories: thoughts
 ---
 
 If you haven't heard of Australia's plans to censor the internet, let me be the first to inform you. The current government has a plan "to force all Australian ISPs to implement server-based filtering systems to block access to 'child pornography', 'X-rated material', 'violence', 'prohibited' material, 'inappropriate' material and 'unwanted' material on a secret blacklist compiled by a government agency"<a href="http://libertus.net/censor/ispfiltering-au-govplan.html">[1]</a>.  
