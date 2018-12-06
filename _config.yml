@@ -16,13 +16,20 @@
 title:  Sarah Taraporewalla
 email: me@sarahtaraporewalla.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Sarah Taraporewalla is a Principal Consultant working for ThoughtWorks, where she specializes in developing robust software for the future, delivered today. 
-  
-  
+  Sarah Taraporewalla is a Principal Consultant working for ThoughtWorks, where she specializes in developing robust software for the future, delivered today.
+
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: saratarap
+twitter_username: sarahtarap
 github_username:  starapor
+
+disqus_short_name: sarahtaraporewalla
+
+# Google Analytics
+google_analytics: UA-5521088-2
+
+show_excerpts: true
 
 # Build settings
 markdown: kramdown
