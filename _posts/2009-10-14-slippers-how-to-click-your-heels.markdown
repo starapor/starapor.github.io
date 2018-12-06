@@ -7,10 +7,10 @@ slug: slippers-how-to-click-your-heels
 status: publish
 title: 'Slippers: How to click your heels'
 wordpress_id: '260'
-categories: Open source projects
+categories: projects
 ---
 
-In my l<a href="/thoughts/open-source-projects/slippers-introduction/">ast post</a> about <a href="http://slippersrb.com">Slippers</a>, I introduced it's philosophy and the places that you could find it. In this post, I will introduce some of its constructs.
+In my [last post]({{ site.baseurl }}{% post_url 2009-10-13-slippers-introduction %}) about [Slippers](https://github.com/starapor/slippers), I introduced it's philosophy and the places that you could find it. In this post, I will introduce some of its constructs.
 
 Rendering template of a string without any holes
 ``` ruby
@@ -74,4 +74,4 @@ Use the specified expression options to render list items
 template = 'This is a list of values $values; null="-1", seperator=", "$'
 engine = Slippers::Engine.new(template)
 engine.render(:values => [1,2,3,nil]) #=> "This is a list of values 1, 2, 3, -1"
-``` 
+```

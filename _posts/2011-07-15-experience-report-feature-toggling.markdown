@@ -9,7 +9,7 @@ title: 'Experience Report: Feature Toggling'
 categories: design
 ---
 
-Last week, I shared <a href="/design/experience-report-branch-by-feature/" title="Experience Report: Git and Branch By Feature" target="_blank">my experiences with git and feature branching</a>. As I mentioned, we moved away from this and towards <a href="http://martinfowler.com/bliki/FeatureToggle.html" title="Feature Toggle" target="_blank">feature toggles</a> and <a href="http://continuousdelivery.com/2011/05/make-large-scale-changes-incrementally-with-branch-by-abstraction/" title="Branch By Abstraction" target="_blank">branch by abstraction</a>. This is what happened when we did...
+Last week, I shared [my experiences with git and feature branching]({{ site.baseurl }}{% post_url 2011-07-08-experience-report-branch-by-feature %}). As I mentioned, we moved away from this and towards [feature toggles](http://martinfowler.com/bliki/FeatureToggle.html) and [branch by abstraction](http://continuousdelivery.com/2011/05/make-large-scale-changes-incrementally-with-branch-by-abstraction/). This is what happened when we did...
 
 Our focus on feature toggles and branch by abstraction was quite accidental. We were changing a fundamental way our system handled calculations by moving from doing them ourselves to asking an external service to perform key calculations for us. As with many an integration point, the external system was not quite ready by the time we started to introduce the modifications, so testing our side was proving to be tricker than initially anticipated. One day, the pair working on the story came to me and said "Sarah, we are having problems changing our tests. We are going to need to change a whole bunch of tests, because they all rely on this value to be calculated on the fly but we now go out to the external system"[1]. We started spitballing ideas, when suddenly, it came to me in a light bulb moment. "Why don't we wrap this class with a switcher", I said. "The switcher can be told which calculator to use - the existing one, or the new external service". BAM. All of a sudden, it made brilliant sense.
 
@@ -29,33 +29,37 @@ I also started to talk about allowing our super users to have the external calcu
 
 My mind races to think of all the other uses. Take AB testing for instance. How easy would it be to use these to gather statistics, then discard the unpopular path. BAM - mind explosion.
 
-You see, Feature Toggling is not just a different way to achieve feature branching. It is an architectural choice that, sure, helps with maintaining mainline development but the power is that it hands back control of what features should be enabled and when to the business. And it is there, ready for you to harness. No extra steps required. As awesome as Git is[6], you just cannot compete with something that allows you to not only control what features go into a release but what features are live at any one time[7]. 
+You see, Feature Toggling is not just a different way to achieve feature branching. It is an architectural choice that, sure, helps with maintaining mainline development but the power is that it hands back control of what features should be enabled and when to the business. And it is there, ready for you to harness. No extra steps required. As awesome as Git is[6], you just cannot compete with something that allows you to not only control what features go into a release but what features are live at any one time[7].
 
 So now you know how we were able to save money by introducing Feature Toggles. What could you do, if you had feature toggles?
 
-<hr/>
-<strong>Update 16 July 2011</strong>
-<em>Whenever you write an experience report, you run the risk of missing out some of your thoughts, assuming that they come across clearly. Thank you to everyone who has given me feedback on this post. I am adding answers at the bottom to address some of the questions that have been raised since originally posting this.</em>
+---
+### Update 16 July 2011
+*Whenever you write an experience report, you run the risk of missing out some of your thoughts, assuming that they come across clearly. Thank you to everyone who has given me feedback on this post. I am adding answers at the bottom to address some of the questions that have been raised since originally posting this.*
 
-<em>How do you ensure that what is going into prod works?</em>
+*How do you ensure that what is going into prod works?*
+
 We achieved this by making the default configuration always be that of production. So, for our QA to test a certain incomplete feature in our QA environment, he had to turn it on explicitly. When a new build was pushed out, the configuration had to be changed again.
-My friend, <a href="http://www.christopherbird.co.uk" title="@chrisabird">Chris Bird</a> recommends that you could consider separating feature flags from the deploy package and make it environmental config. This would mean the QA would not be configuring after each deployment. Perhaps considering tools like Chef to control the environmental config?
+My friend, [Chris Bird](http://www.christopherbird.co.uk) recommends that you could consider separating feature flags from the deploy package and make it environmental config. This would mean the QA would not be configuring after each deployment. Perhaps considering tools like Chef to control the environmental config?
 
-<em>How do you know what toggle is on?</em>
+*How do you know what toggle is on?*
+
 We had an application configuration page which showed really cool things such as build numbers, db migration version and configuration values of the properties (and where the configuration was set eg app.config, prod.config). This page also exposed the values of all known feature toggles.
 
-<em>When do you remove the toggle? And who makes that decision?</em>
-I would agree with everyone that they have a TTL. Although we didn't do this, you could put a TTL on the configuration page...or how long it has been in place. Then, after it hits a threshold you remove it. On the project, once it was live we tidied up the code following the boyscout rule. You could also have a TTL wall, making it visible to everybody. 
-Also, if you know how long the feature has been there without being turned on, you could get that stats for monitoring waste. 
-As to who makes the decision, I would say that if the business knows you have these toggles, talk to them about keeping them in vs taking them out and the risk/debt you are carrying as a result.
-My friend, <a href="http://www.christopherbird.co.uk" title="@chrisabird">Chris Bird</a> recommends marking the toggles with expirations through a mechanism like ignore attributes in the code. When those ignores expire it breaks a test (and then the build) to warn you about removing these attributes. This could also be a nice technique for reminding you when these things need to be addressed.
+*When do you remove the toggle? And who makes that decision?*
 
-<em>Don't you get an explosion of combination of toggles?</em>
+I would agree with everyone that they have a TTL. Although we didn't do this, you could put a TTL on the configuration page...or how long it has been in place. Then, after it hits a threshold you remove it. On the project, once it was live we tidied up the code following the boyscout rule. You could also have a TTL wall, making it visible to everybody.
+Also, if you know how long the feature has been there without being turned on, you could get that stats for monitoring waste.
+As to who makes the decision, I would say that if the business knows you have these toggles, talk to them about keeping them in vs taking them out and the risk/debt you are carrying as a result.
+My friend, [Chris Bird](http://www.christopherbird.co.uk) recommends marking the toggles with expirations through a mechanism like ignore attributes in the code. When those ignores expire it breaks a test (and then the build) to warn you about removing these attributes. This could also be a nice technique for reminding you when these things need to be addressed.
+
+*Don't you get an explosion of combination of toggles?*
+
 Yes, so remove them if they are no longer needed.
 
-<em>If you switch it on in prod, what about testing? How can you ensure that it is tested?</em>
+*If you switch it on in prod, what about testing? How can you ensure that it is tested?*
+
 Doing this was completely to get around the fact that the business wouldn't let us release more frequently. We pushed and pushed and pushed really hard, but we were only able to do fortnightly releases twice before they thought the overhead was too much. What we did was to test it in UAT with the different combinations, so even though we switched it on in prod, we tested it thoroughly in UAT first. I would prefer to just push out a new release, but failing that, this was a good alternative. And I appreciate that that sentiment is not clear in the post, so I hope this clears things up.
-<hr/>
 
 [1] full confession - our tests were too unwieldy and smelly. This challenge just highlighted to me the problems with our tests.
 [2] before this, we were faced with keeping the code on a separate branch, but with the amount of refactoring that was going on in that crucial area, we were not too keen on the day we had to merge back into master

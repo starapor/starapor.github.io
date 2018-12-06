@@ -10,11 +10,11 @@ wordpress_id: '370'
 categories: design
 ---
 
-I have been made aware of some negative responses to <a href="http://martinfowler.com/" title="Martin Fowler" target="_blank">Martin Fowler</a> & <a href="http://mikemason.ca/blog/" target="_blank">Mike Mason</a>'s <a href="http://www.thoughtworks.com/perspectives/30-06-2011-continuous-delivery">discussion on Branch By Feature</a>.
+I have been made aware of some negative responses to [Martin Fowler](http://martinfowler.com/) and [Mike Mason's](http://mikemason.ca/blog/) discussion on [Branch By Feature](http://www.thoughtworks.com/perspectives/30-06-2011-continuous-delivery).
 
 Perhaps unsurprisingly, I agree with Martin & Mike's view on branching. I have been on several projects that have adopted various strategies like branching by features, feature toggling & branching by abstraction so I have personal history to back up what others say about branching. But, the argument goes that that was when we were using source control systems that made branching and merging difficult and painful, like CVS, subversion and Perforce. This is true. But on my last client, we used git and branch by feature. This is my experience working in this way....
 
-At my last client, we used started by using Git and branch-by-feature[1]. Features would take anywhere from 1 day to 5 days to complete. At the end of the feature, it would be merged back to master (having been good little girls and boys and continuously merging from master ...that is CI isn't it???)[2], pushed and then CI would trigger. 
+At my last client, we used started by using Git and branch-by-feature[1]. Features would take anywhere from 1 day to 5 days to complete. At the end of the feature, it would be merged back to master (having been good little girls and boys and continuously merging from master ...that is CI isn't it???)[2], pushed and then CI would trigger.
 
 Guess what happened - tests on CI would fail because CI was running a bigger suite of tests than our cmd line. Ok, so we didn't have CI running on the branch, but really - what harm did it do? So you had to spend a little extra time fixing those tests....we're not buying that whole "you're not really doing CI" argument. Branch by Feature is cool - look - you can clearly see which changes relate to a story and you can back them all out if you need to.
 
@@ -26,11 +26,11 @@ Boy, you think we would've learnt that first time. But in spectacular face-palm 
 
 Don't worry - we did learn. We added feature toggles to help with the testing of a story (also using branch-by-abstraction). Then, when the 3rd party the new code was talking to wasn't ready by the release date, we switched the toggle back to the old way, released all the other new features, thoroughly impressed the client (who believed that we would need to wait another 3 months for the 3rd party) and felt chuffed ourselves. After that, we hopped onto the release train, all stories developed on master with feature toggles where necessary and got the business back into fortnightly cycles, without the pain of branching-per-release[4]
 
-Next time, I don't think that I would be so diplomatic towards branch-by-feature....if I see it again, I think that I might stamp it out straight away. Every time I have seen it (and this is on 6 mthly branches, monthly branches, fortnightly, weekly & daily) the same problems keep coming up[5]. 
+Next time, I don't think that I would be so diplomatic towards branch-by-feature....if I see it again, I think that I might stamp it out straight away. Every time I have seen it (and this is on 6 mthly branches, monthly branches, fortnightly, weekly & daily) the same problems keep coming up[5].
 
 
 [1] actually - to clarify...when I rolled onto the project, that is what the team was doing so I decided to see how well it would go...
 [2] for those who are sarcastically-challenged, that was said tongue-in-cheek.
 [3] that wasn't the only strategy tried..but it was the quickest for small fixes...for larger change there was a debate as to whether you should create a new branch or just merge current master into the old branch and continue...both send shivers down my spine...
-[4] we also tried various techniques with branching-per-release...we had another Go pipeline setup so that any releases or hotfixes would move through that. For a little while, this was important as UAT uncovered some stuff to fix, but in the end it was unnecessary as we just released whatever was the lastest good build - and toggled off all the other incomplete features. 
+[4] we also tried various techniques with branching-per-release...we had another Go pipeline setup so that any releases or hotfixes would move through that. For a little while, this was important as UAT uncovered some stuff to fix, but in the end it was unnecessary as we just released whatever was the lastest good build - and toggled off all the other incomplete features.
 [5] actually...git's branching does make it really cool for spikes and helping you work out how to refactor a piece of code...but once discovered, ditch it and start from scratch on master
