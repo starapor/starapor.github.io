@@ -1,0 +1,16 @@
+For more docs see: https://jekyllrb.com/docs/
+
+To run this site locally:
+
+bundle exec jekyll serve
+
+To publish:
+
+git push origin master
+
+To create a new post:
+
+Need to go into the _posts/ folder
+Need to start with YYYY-MM-DD-title.md
+
+(https://jekyllrb.com/docs/posts)
