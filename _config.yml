@@ -30,6 +30,7 @@ disqus_short_name: sarahtaraporewalla
 google_analytics: UA-5521088-2
 
 show_excerpts: true
+permalink: /:categories/:title
 
 # Build settings
 markdown: kramdown

@@ -6,7 +6,7 @@ comments: true
 slug: picking-the-right-domain-to-model
 status: publish
 title: Picking the right domain to model
-Categories : 
+categories: 
 - Design
 - domain
 - modeling
