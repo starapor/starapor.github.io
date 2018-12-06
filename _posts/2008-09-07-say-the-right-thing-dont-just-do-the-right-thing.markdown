@@ -11,6 +11,7 @@ categories: testing
 ---
 
 Often, I see tests like the following:
+
 ``` csharp
 public void SuccessulUpdateOfCarDeatilsShouldReturnSuccessResponse()
 {
@@ -19,14 +20,16 @@ public void SuccessulUpdateOfCarDeatilsShouldReturnSuccessResponse()
 	Assert.AreEqual(200, controller.Response)
 }
 ```
-<div>This conveys to me two things about the author of the test:</div>
-<div>
-<ol>
-	<li>They treat tests as second-class citizens</li>
-	<li>They have no respect for me, the unknown reader of the test</li>
-</ol>
-<div>Let me explain. I could be viewing these tests for a variety of reasons - to add new tests as bugs have appeared, to alter the functionality of the unit-under-test, to understand the unit-under-test ... etc.</div>
-<div>Before I can understand what the test is actually testing, I need to look at the signature of the class (ie open the file, navigate to the constructor...) to determine what the string.empty and zeros are representing.  This takes extra effort on my part to understand the intent of the test*.
+
+This conveys to me two things about the author of the test:
+
+1. They treat tests as second-class citizens
+2. They have no respect for me, the unknown reader of the test
+
+Let me explain. I could be viewing these tests for a variety of reasons - to add new tests as bugs have appeared, to alter the functionality of the unit-under-test, to understand the unit-under-test ... etc.
+
+Before I can understand what the test is actually testing, I need to look at the signature of the class (ie open the file, navigate to the constructor...) to determine what the string.empty and zeros are representing.  This takes extra effort on my part to understand the intent of the test*.
+
 ``` csharp
 public class CarController{
 	...
@@ -36,10 +39,11 @@ public class CarController{
 	}
 }
 ```
-</div>
-<div>It also makes life difficult, because I am not sure if they are there for a particular purpose (ie the test is testing how the method handles nulls/empty strings) or if they are there because the author thinks they they are unimportant to the test.</div>
-<div>I prefer to explicitly call out my unimportant parameters, by passing realistic but dummy values. I would rework the above example into:</div>
-<div>
+
+It also makes life difficult, because I am not sure if they are there for a particular purpose (ie the test is testing how the method handles nulls/empty strings) or if they are there because the author thinks they they are unimportant to the test.
+
+I prefer to explicitly call out my unimportant parameters, by passing realistic but dummy values. I would rework the above example into:
+
 ``` csharp
 public void SuccessulUpdateOfCarDeatilsShouldReturnSuccessResponse()
 {
@@ -48,8 +52,9 @@ public void SuccessulUpdateOfCarDeatilsShouldReturnSuccessResponse()
 	Assert.AreEqual(200, controller.Response)
 }
 ```
-</div>
-<div>This way I can see at a simple glance at the one test file what the method expects to take as parameters. I tend to use <a href="http://en.wikipedia.org/wiki/Answer_to_Life,_the_Universe,_and_Everything">42</a> as my default dummy id value, so when my team mates see it, they know it is an id value (zero is often an indicator of an object which is not persisted).</div>
-<div>By replacing the meaningless empty values, with meaningless values which explain themselves you run into less problems adding the new tests, refactoring or altering functionality as the reader understands the intent of the test. Now, the test not only <span style="font-style:italic;">does</span> the right thing, but also <span style="font-style:italic;">says</span> the right thing.</div>
-<div>*Even with Intelli-J or Resharper, there is work involved to understand these values</div>
-</div>
+
+This way I can see at a simple glance at the one test file what the method expects to take as parameters. I tend to use [42](http://en.wikipedia.org/wiki/Answer_to_Life,_the_Universe,_and_Everything) as my default dummy id value, so when my team mates see it, they know it is an id value (zero is often an indicator of an object which is not persisted).
+
+By replacing the meaningless empty values, with meaningless values which explain themselves you run into less problems adding the new tests, refactoring or altering functionality as the reader understands the intent of the test. Now, the test not only *does* the right thing, but also *says* the right thing.
+
+*Even with Intelli-J or Resharper, there is work involved to understand these values*

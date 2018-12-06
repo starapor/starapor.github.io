@@ -11,6 +11,7 @@ categories: testing
 ---
 
 An annoying part of writing a test is the amount of setup an object can need in order to use it within the test. 
+
 ``` csharp
 public void ShouldCalculateVolume()
 {

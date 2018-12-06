@@ -14,6 +14,6 @@ How often do you get to work on completely isolated systems? It is seemingly mor
 
 Come to my <strong>London Dot Net User Group talk next Thursday (18th November)</strong> at <strong>Skills Matter</strong> and you will hear about how to design your system to decrease this risk, how to ensure the quality of the overall system and how to manage the successful delivery of the system. Not only that, but you will hear real-life cases, some success stories but also many failures and you too can learn from the mistakes I witnessed. Have questions around the integration points in your ecosystem? Fire them up, and lets see if we can work through them together.
 
-Registration is at [http://skillsmatter.com/podcast/open-source-dot-net/how-to-design-your-system-to-decrease-risks]
+Registration is [here](http://skillsmatter.com/podcast/open-source-dot-net/how-to-design-your-system-to-decrease-risks)
 
 Thanks to [LDNUG](http://www.dnug.org.uk/), [Skills Matter](http://skillsmatter.com/) and [Rachel Laycock](http://www.rachellaycock.com/) for finding me a soap box to stand on.

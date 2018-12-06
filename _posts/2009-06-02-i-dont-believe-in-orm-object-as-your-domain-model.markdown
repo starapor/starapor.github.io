@@ -10,7 +10,7 @@ wordpress_id: '204'
 categories: design
 ---
 
-I have been on a few projects now where we have used ORM libraries to help store our data (eg <a href="http://ar.rubyonrails.org/">ActiveRecord</a> for Rails, <a href="https://www.hibernate.org/">Hibernate</a> (and it's variants), <a href="http://www.castleproject.org/activerecord/index.html">Castle's ActiveRecord</a> for .Net). On these projects, we have used the domain models and the ORM models are the same.
+I have been on a few projects now where we have used ORM libraries to help store our data (eg [ActiveRecord](http://ar.rubyonrails.org/) for Rails, [Hibernate](https://www.hibernate.org/) (and it's variants), [Castle's ActiveRecord](http://www.castleproject.org/activerecord/index.html) for .Net). On these projects, we have used the domain models and the ORM models are the same.
 
 The problem we faced with doing so is the same problems I think most people face : eventually, your domain wants to take your model in one direction, and your relational database wants to take it in another. Personally, I really like Domain Driven Design - I like my objects to be reflective of the domain - and I don't really care about how the database stores them, or indexes or stuff like that (I seem to remember something about BNF back in uni), so I am more inclined to let my model move towards the domain; but I do understand that there are consequences in doing so when looking at how my data is accessed.
 

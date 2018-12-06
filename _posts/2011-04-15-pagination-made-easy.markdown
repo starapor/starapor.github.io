@@ -10,7 +10,11 @@ wordpress_id: '352'
 categories: design
 ---
 
-Ok, so I am doing a little happy dance right now, because I managed to get pagination into our application in less than a day. It is not your traditional pagination: where you specify the page number (and if you are lucky enough, also the page size). I find no real user meaning behind this. Instead, it allows you to specfy the range you want to look at. So, for the first 20 items, you would look at the items starting at 1 and ending at 20. To look at the next 20 items, you start at 21 and ending at 40. So far, that is just a different implementation to Page 2. Now, suppose the items that are actually interesting to you are items 10-30. In the Page model, you need to go back and forth between page 1 and 2. In this model, you only need to look at items starting at 10 and ending at 30. Brilliant huh! Nice implementations of this would be sliding windows, facebook style "more items", and the version that we have (a hybrid between predefined pages and the ability to specify an exact range).
+Ok, so I am doing a little happy dance right now, because I managed to get pagination into our application in less than a day. It is not your traditional pagination: where you specify the page number (and if you are lucky enough, also the page size). I find no real user meaning behind this.
+
+Instead, it allows you to specify the range you want to look at. So, for the first 20 items, you would look at the items starting at 1 and ending at 20. To look at the next 20 items, you start at 21 and ending at 40. So far, that is just a different implementation to Page 2.
+
+Now, suppose the items that are actually interesting to you are items 10-30. In the Page model, you need to go back and forth between page 1 and 2. In this model, you only need to look at items starting at 10 and ending at 30. Brilliant huh! Nice implementations of this would be sliding windows, facebook style "more items", and the version that we have (a hybrid between predefined pages and the ability to specify an exact range).
 
 
 Here is how I did it (tests and other junk removed for readability):

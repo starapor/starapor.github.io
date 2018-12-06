@@ -10,14 +10,14 @@ wordpress_id: '203'
 categories: design
 ---
 
-In <a href="/thoughts/design/coding-tip-27-turning-bools-into-enums/">Coding Tip #27</a> I explained how I rarely like to use booleans to represent states, and prefer to use an enum. Now that I have all nice little enums everywhere, another pattern that I see emerge is that I want more from my enum than just a value: perhaps other values associated with it, or actual behaviour. These enums then get converted into fully-fledged objects (ie classes) in the system with a very simple refactor.
+In [Coding Tip no27]({{ site.baseurl }}{% post_url 2009-05-25-coding-tip-27-turning-bools-into-enums %}) I explained how I rarely like to use booleans to represent states, and prefer to use an enum. Now that I have all nice little enums everywhere, another pattern that I see emerge is that I want more from my enum than just a value: perhaps other values associated with it, or actual behaviour. These enums then get converted into fully-fledged objects (ie classes) in the system with a very simple refactor.
 
 So, the code started with:
 ``` csharp
 private bool hasVehicle;
 ```
 
-then, by following <a href="/thoughts/design/coding-tip-27-turning-bools-into-enums/">Coding Tip #27</a>, went to:
+then, by following [Coding Tip no27]({{ site.baseurl }}{% post_url 2009-05-25-coding-tip-27-turning-bools-into-enums %}), went to:
 ``` csharp
 private Vehicle theVehicle;
 public enum Vehicle
