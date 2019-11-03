@@ -4,10 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Sarah Taraporewalla is a Principal Consultant working for [ThoughtWorks](http://thoughtworks.com "ThoughtWorks"), where she specializes in developing robust software for the future, delivered today.
+Sarah serves [ThoughtWorks](http://thoughtworks.com "ThoughtWorks") as Technology Principal Consultant with twelve years experience working for ThoughtWorks in software delivery within a range of organisations in Australia and Europe. Lately, she has enjoyed performing roles such as CTO coach and Head of Architecture to Scale-Ups on their growth journey and existing organisations on their digital transformation replatform. She also wears many other hats: Tech Lead; Developer; Agile Coach; Conference Speaker. She does all this working two days a week.
 
-She has acted as developer, software architect, technical lead and agile coach on many projects. She has spoken at both internal and external conferences, skills matter courses and geek nights. Although primarily focused on software design, she also has a lot to say about how software can be developed to accommodate the changing pace of business and how people should be treated within teams.
+Sarah has great people skills, a technical mind and is a natural organiser. Her interests include agile methodologies, software design, architecture, testing techniques and development methodologies. She is a truly professional individual with the persona and charisma to deliver change in the most difficult of environments.
 
+![Picture of Me](/assets/me.jpg)
 
 <!-- This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
