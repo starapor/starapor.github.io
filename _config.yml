@@ -16,7 +16,7 @@
 title:  Sarah Taraporewalla
 email: me@sarahtaraporewalla.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Sarah Taraporewalla is a Principal Consultant working for ThoughtWorks, where she specializes in developing robust software for the future, delivered today.
+  Technologist Principal Consultant, ThoughtWorks 
 
 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -34,9 +34,14 @@ permalink: /:categories/:title
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-clean-blog
+paginate:           5
+paginate_path:      "/posts/page:num/"
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

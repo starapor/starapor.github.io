@@ -2,6 +2,8 @@
 layout: page
 permalink: /conferences-presentations/
 title: Conferences & Presentations
+description: Hear me talk
+background: /assets/environment2.jpg
 ---
 
 I have been presenting on a variety of topics lately. If you would like me to speak at your event please contact me on twitter @sarahtarap
