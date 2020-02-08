@@ -8,7 +8,7 @@ background: /assets/environment2.jpg
 
 I have been presenting on a variety of topics lately. If you would like me to speak at your event please contact me on twitter @sarahtarap
 
-## So you're a Tech Lead - great! Now what?
+## So you've just become a Tech Lead - great! Now what?
 You have just been promoted to a Tech Lead role - Congratulations! But something is wrong :(. Suddenly, you're struggling and under delivering. Everything you thought you knew about being a great developer is thrown out the window.
 
 Being a Tech Lead is more than just being the best technologist in the room. In fact, the objective of a Tech Lead is completely different to a Senior Engineer. A Tech Lead’s sole aim is to make the delivery team as effective as they can.
