@@ -8,6 +8,27 @@ background: /assets/environment2.jpg
 
 I have been presenting on a variety of topics lately. If you would like me to speak at your event please contact me on twitter @sarahtarap
 
+## So you're a Tech Lead - great! Now what?
+You have just been promoted to a Tech Lead role - Congratulations! But something is wrong :(. Suddenly, you're struggling and under delivering. Everything you thought you knew about being a great developer is thrown out the window.
+
+Being a Tech Lead is more than just being the best technologist in the room. In fact, the objective of a Tech Lead is completely different to a Senior Engineer. A Tech Lead’s sole aim is to make the delivery team as effective as they can.
+
+In this talk, you will hear how Sarah has helped many upcoming Senior Engineers transition into successful Tech Leads. You will learn more about the expectations of the role and take a look at key attributes for a Tech Lead. We will dive into the five key capabilities that they need: Custodian of Vision, Project Management, Information Radiator, Mentorship and Productionising the Tech; which are underpinned by Influence Skills, Leadership Styles and Conflict Resolution. If you have been struggling with your new responsibilities, or you are progressing towards this role, this talk is for you.
+
+### Presented at:
+* [DDD Brisbane 2019](https://dddbrisbane.com/agenda) December 2019
+
+## Complex is Easy, it's Simple that's Hard
+It’s easy to find a complex solution to a complicated problem. But it takes another level of expertise to craft a simple solution. There is a direct relationship between the complexity of a system and its cost of ownership. Complex systems are difficult to understand – they take time for new team members to learn. Diagnosing critical issues in complex systemsat 3am, when you’re half asleep, takes many cups of coffee. However, when we focus on discovering a simple solution, all that changes for the better.
+
+Simple solutions require different approaches than the ones we usually use to create complex systems.
+
+In this session, Sarah Taraporewalla will describe these approaches, which include Domain Driven Design (DDD) and its adoption of Ubiquitous Language; an understanding of how cognitive biases interfere with complexity, and modelling tools which help simplify and aide in communication. By sharing some examples of complex systems she has seen, you will learn the reasons behind the complexity, and what approach she used to help simplify them.
+
+### Presented at
+* [Agile Australia 2019](http://agileaustralia.com.au/2019/speakers/sarah-taraporewalla/) June 2019
+* [Voxxed Days Sydney 2019](https://australia.voxxeddays.com/speakers.html) May 2019
+
 ##  From Tech Lead to Motherhood : One woman’s journey from changing systems to changing nappies - and back again
 Our industry undeniably suffers from a lack of gender balance amongst hands-on technologists. Even fewer of those technologists are mothers. Sadly, many women believe that you can’t remain technical once you become a mother. But there are small changes that we as leaders can make to support our team members as they transition back into the workforce.
 
@@ -18,6 +39,7 @@ In this talk, Sarah will share with you her experience, including the challenges
 Sarah hopes her experience will provide some inspiration and practical advice to share with your software engineers and tech leads who are contemplating motherhood, and for leaders who are committed to supporting diversity in their workplace.
 
 ### Presented at
+* [Web Directions Code Leaders](https://www.webdirections.org/leaders/schedule.php) June 2019
 * [CTO Summit Brisbane](https://brisbanectosummit.yowconference.com.au/) December 2018
 * [DDD Brisbane](https://dddbrisbane.com/) December 2018
 * [By ThoughtWorks Ada Lovelace Day](https://www.meetup.com/en-AU/ThoughtWorks_Brisbane/events/254774905/) October 2018
