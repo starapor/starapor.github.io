@@ -87,7 +87,7 @@ The Go Live for this usually involves gathering the Technical teams together to 
 
 The editable word document is usually best kept as the working document between its authors, instead of sharing it with the wider team. 
 
-### As use in onboarding
+### Using it for onboarding
 As mentioned earlier, I like using this document when introducing new members to the team. Onboarding can often overload the new person, so providing a document that they can refer back to which describes the Whys and Hows of our strategy can help bridge any gaps. After giving them the lowdown, I usually email them a copy of the latest version and encourage them to read it. I also actively seek feedback on the document itself, to see where the gaps lie from a fresh perspective. 
 
 
