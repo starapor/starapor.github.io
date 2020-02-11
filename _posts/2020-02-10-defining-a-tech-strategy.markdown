@@ -60,6 +60,9 @@ I recommend that teams adopt an Evolutionary Architecture approach to their arch
 - our _future state_ (through high level diagrams of software components and infrastructure and a commentary about what we are trying to achieve); and
 - a _transition plan_ towards our future state - what is the next thing we are doing to get us there?
  
+As time progresses, this section can form as part of the team's living history, documenting any major shift in tech choices in conjunction with [Lightweight Architecture Document Records](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions)
+
+ 
 ### Cross Functional Requirements
 _[Many years ago](https://sarahtaraporewalla.com/agile/design/i-dont-believe-in-nfrs), I coined the phrase Cross Functional Requirements. You might know them as Non Functional Requirements, the Quality attributes or the -ilities_
 
