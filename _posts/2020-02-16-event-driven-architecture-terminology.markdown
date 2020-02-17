@@ -1,6 +1,6 @@
 ---
 author: Sarah
-date: '2020-02-16l 11:26:30'
+date: '2020-02-16 11:26:30'
 layout: post
 comments: true
 slug: Event Driven Architecture Terminology 
