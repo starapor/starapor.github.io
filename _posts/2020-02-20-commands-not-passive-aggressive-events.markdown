@@ -3,7 +3,7 @@ author: Sarah
 date: '2020-02-20 17:26:30'
 layout: post
 comments: true
-slug: Commands not passive aggressive events
+slug: commands not passive aggressive events
 status: publish
 title: 'Commands, not passive aggressive events'
 categories:
