@@ -111,7 +111,7 @@ A great example of an event-sourced system is Git. Git stores the delta commits,
 
 Although it can work well with Event Streaming, it is important to note that Event Sourcing is a separate concept. Event Sourcing applies to the database (and the ORMs) and is therefore a concern of Inside the Box architecture. 
 
-Let’s consider our Restaurant. At night, the Kitchen is busy making orders and announcing “Steak and Chips for table 26”. The Stockroom could listen to each of these messages and deprecate from its Steak quantity each time it hears this event. But the Stockroom only orders in the morning. So instead, when it makes the order to restock, it replays all the “Steak ...” events, as well as “Steak received” events to determine stock levels. 
+Let’s consider our Restaurant. At night, the Kitchen is busy making orders and announcing “Steak and Chips for table 26”. The Stockroom could listen to each of these messages and reduce its Steak quantity each time it hears this event. But the Stockroom only orders in the morning. So instead, when it makes the order to restock, it replays all the “Steak ...” events, as well as “Steak received” events to determine stock levels. 
 
 ## To Conclude
 We’ve built up a nice little Restaurant system now, formed around our domain boundaries, broadcasting Events to each other, issuing commands when needed and event sourcing stock levels. Our system is easy to understand, no spaghetti communication between services and no centralized orchestration. We have easily developed and created nice isolated tests without requiring the whole restaurant to be assembled locally.
