@@ -6,9 +6,11 @@ permalink: /about/
 background: /assets/me.jpg
 ---
 
-Sarah serves [ThoughtWorks](http://thoughtworks.com "ThoughtWorks") as Technology Principal Consultant with twelve years experience working for ThoughtWorks in software delivery within a range of organisations in Australia and Europe. Lately, she has enjoyed performing roles such as CTO coach and Head of Architecture to Scale-Ups on their growth journey and existing organisations on their digital transformation replatform. She also wears many other hats: Tech Lead; Developer; Agile Coach; [Conference Speaker](/conferences-presentations). She does all this working two days a week.
+Sarah has more than a decade of experience working as a technologist for [ThoughtWorks](http://thoughtworks.com "ThoughtWorks"). During this time, she has specialised in enterprise modernisation, helping client organisations modernise their systems, processes, people and platforms. 
 
-Sarah has great people skills, a technical mind and is a natural organiser. Her interests include agile methodologies, software design, architecture, testing techniques and development methodologies. She is a truly professional individual with the persona and charisma to deliver change in the most difficult of environments.
+Today, Sarah leads ThoughtWorks Australia's Enterprise Modernisation, Platforms and Cloud (EMPC) practice in Australia. 
+
+The most majestic places she's visited include the fjords of Norway and the mud pits of New Zealand. Lockdown 2020 made her appreciate the quiet as much as the noise and chaos. She finds writing personal abstracts in the third person very weird.
 
 
 <!-- Pager -->
