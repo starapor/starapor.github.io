@@ -1,0 +1,19 @@
+{
+    "name": "Jekyll",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "forwardPorts": [4000],
+    "postCreateCommand": "bundle install",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "streetsidesoftware.code-spell-checker",
+                "yzhang.markdown-all-in-one",
+                "davidanson.vscode-markdownlint",
+                "shd101wyy.markdown-preview-enhanced"
+            ]
+        }
+    },
+    "remoteUser": "jekyll"
+} 
