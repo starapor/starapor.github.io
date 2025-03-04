@@ -1,0 +1,34 @@
+name: Build and Verify Site
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: .ruby-version
+        bundler-cache: true
+
+    - name: Install dependencies
+      run: bundle install
+
+    - name: Build site
+      run: bundle exec jekyll build
+
+    - name: Verify build
+      run: |
+        if [ ! -d "_site" ]; then
+          echo "Build failed: _site directory not created"
+          exit 1
+        fi
+        echo "Build successful!" 
