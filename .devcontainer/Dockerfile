@@ -1,4 +1,4 @@
-FROM ruby:3.2-slim-bullseye
+FROM ruby:3.4-slim-bullseye
 
 # Install required packages
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
