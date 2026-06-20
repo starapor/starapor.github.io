@@ -1,6 +1,6 @@
 ---
 title: "Building adaptive organisations: a reading guide"
-pubDatetime: 2026-06-20T90:00:00.000Z
+pubDatetime: 2026-06-20T09:00:00.000Z
 description: "A guide to the ideas I have been writing about since returning to this blog — technology leadership, organisational adaptability, and creating strategic options in a period of accelerating change."
 tags:
   - "leadership"
