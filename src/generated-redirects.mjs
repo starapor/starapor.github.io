@@ -68,5 +68,8 @@ export const generatedRedirects = {
   "/leadership/hierarchy-of-needs-through-covid-crisis": "/writing/hierarchy-of-needs-through-covid-crisis",
   "/leadership/move-just-move": "/writing/move-just-move",
   "/leadership/stand-against-racism-and-police-violence": "/writing/stand-against-racism-and-police-violence",
-  "/feed.xml": "/rss.xml"
+  "/feed.xml": "/rss.xml",
+  "/agile/design/architecture/Defining-a-Tech-Strategy": "/writing/defining-a-tech-strategy",
+  "/architecture/Event-Driven-Architecture-Terminology-": "/writing/event-driven-architecture-terminology",
+  "/architecture/Is-Kafka-the-only-option-": "/writing/is-kafka-the-only-option"
 };
