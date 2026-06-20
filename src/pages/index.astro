@@ -1,27 +1,19 @@
 ---
-import { getCollection } from "astro:content";
 import { getRelativeLocaleUrl } from "astro:i18n";
-import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
-import Card from "@/components/Card.astro";
-import LinkButton from "@/components/LinkButton.astro";
-import { getSortedPosts } from "@/utils/getSortedPosts";
 import { useTranslations } from "@/i18n";
 import config from "@/config";
 import { getAssetPath } from "@/utils/withBase";
 
-const { posts: postsConfig } = config;
-
 const locale = Astro.currentLocale ?? config.site.lang;
 const t = useTranslations(locale);
 
-const posts = await getCollection("posts");
-const sortedPosts = getSortedPosts(posts);
-const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
-const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 const homePath = getRelativeLocaleUrl(locale, "");
+const writingUrl = getRelativeLocaleUrl(locale, "writing");
+const talksUrl = getRelativeLocaleUrl(locale, "conferences-presentations");
+const aboutUrl = getRelativeLocaleUrl(locale, "about");
 ---
 
 <Layout>
@@ -53,49 +45,120 @@ const homePath = getRelativeLocaleUrl(locale, "");
     data-home-path={homePath}
     class="app-layout"
   >
+    <section class="border-border border-b py-12">
+      <h2 class="text-2xl font-semibold sm:text-3xl">
+        The future of software engineering is not a tooling problem.
+      </h2>
+      <h2 class="mt-2 text-2xl font-semibold sm:text-3xl">
+        It is an organisational design problem.
+      </h2>
+      <p class="mt-6">Technology is entering a period of unprecedented change.</p>
+      <p class="mt-4">
+        Artificial Intelligence is transforming how software is imagined,
+        designed, built, and operated. But the organisations that benefit most
+        will not simply be those that adopt new tools fastest.
+      </p>
+      <p class="mt-4">
+        They will be those that redesign themselves to adapt faster.
+      </p>
+    </section>
 
-    {
-      featuredPosts.length > 0 && (
-        <section
-          id="featured"
-          class:list={[
-            "pt-12 pb-6",
-            { "border-border border-b": recentPosts.length > 0 },
-          ]}
+    <section class="border-border border-b py-12">
+      <h2 class="text-2xl font-semibold sm:text-3xl">Strategic Options</h2>
+      <p class="mt-6">
+        The role of technology leadership is not simply to deliver systems.
+      </p>
+      <p class="mt-4">It is to create strategic options.</p>
+      <p class="mt-4">
+        In a world defined by volatility, uncertainty, and accelerating change,
+        organisations cannot rely on perfect predictions. They need the ability
+        to sense change, respond quickly, and continuously evolve.
+      </p>
+      <p class="mt-4">I think about this through a simple equation:</p>
+      <blockquote
+        class="border-accent mt-6 border-l-4 pl-4 text-lg font-semibold italic"
+      >
+        Strategic Options = Adaptive Capacity – Operational Gravity
+      </blockquote>
+      <p class="mt-6">Where:</p>
+      <p class="mt-4">
+        <strong>Adaptive Capacity</strong> is the organisation's ability to respond,
+        learn, and change through:
+      </p>
+      <ul class="mt-2 list-disc pl-6">
+        <li>flexible architectures</li>
+        <li>empowered teams</li>
+        <li>effective platforms</li>
+        <li>modern engineering practices</li>
+        <li>adaptive governance</li>
+      </ul>
+      <p class="mt-6">
+        <strong>Operational Gravity</strong> is the accumulated drag created by:
+      </p>
+      <ul class="mt-2 list-disc pl-6">
+        <li>technical debt</li>
+        <li>legacy constraints</li>
+        <li>organisational complexity</li>
+        <li>fragmented platforms</li>
+        <li>processes that slow decision-making</li>
+      </ul>
+      <p class="mt-6">
+        The goal of technology leadership is to continuously increase adaptive
+        capacity while reducing operational gravity.
+      </p>
+      <p class="mt-4">Not just to build technology.</p>
+      <p class="mt-4">To create freedom.</p>
+    </section>
+
+    <section class="border-border border-b py-12">
+      <h2 class="text-2xl font-semibold sm:text-3xl">Exploring</h2>
+      <p class="mt-4">I write and speak about the intersection of:</p>
+      <ul class="mt-2 list-disc pl-6">
+        <li>AI-first software delivery</li>
+        <li>Engineering excellence</li>
+        <li>Product-led organisations</li>
+        <li>Platform engineering</li>
+        <li>Technology strategy</li>
+        <li>Organisational transformation</li>
+        <li>Leadership in times of disruption</li>
+      </ul>
+    </section>
+
+    <section class="py-12">
+      <h2 class="text-2xl font-semibold sm:text-3xl">Explore</h2>
+      <div class="mt-6 grid gap-6 sm:grid-cols-3">
+        <a
+          href={writingUrl}
+          class="border-border hover:border-accent group block rounded-lg border p-6 transition-colors"
         >
-          <h2 class="text-2xl font-semibold tracking-wide">
-            {t.home.featured}
-          </h2>
-          <ul>
-            {featuredPosts.map(data => (
-              <Card variant="h3" {...data} />
-            ))}
-          </ul>
-        </section>
-      )
-    }
-
-    {
-      recentPosts.length > 0 && (
-        <section id="recent-posts" class="pt-12 pb-6">
-          <h2 class="text-2xl font-semibold tracking-wide">
-            {t.home.recentPosts}
-          </h2>
-          <ul>
-            {recentPosts.slice(0, postsConfig.perIndex).map(data => (
-              <Card variant="h3" {...data} />
-            ))}
-          </ul>
-        </section>
-      )
-    }
-
-    <div class="my-8 text-center">
-      <LinkButton href={getRelativeLocaleUrl(locale, "writing")}>
-        {t.home.allPosts}
-        <IconArrowRight class="inline-block rtl:-rotate-180" />
-      </LinkButton>
-    </div>
+          <div class="text-accent text-lg font-semibold">Writing →</div>
+          <p class="text-muted-foreground mt-2 text-sm">
+            Ideas, frameworks, and reflections on technology, engineering, and
+            organisational change.
+          </p>
+        </a>
+        <a
+          href={talksUrl}
+          class="border-border hover:border-accent group block rounded-lg border p-6 transition-colors"
+        >
+          <div class="text-accent text-lg font-semibold">Talks →</div>
+          <p class="text-muted-foreground mt-2 text-sm">
+            Conference talks, workshops, and conversations about the future of
+            software and technology leadership.
+          </p>
+        </a>
+        <a
+          href={aboutUrl}
+          class="border-border hover:border-accent group block rounded-lg border p-6 transition-colors"
+        >
+          <div class="text-accent text-lg font-semibold">About →</div>
+          <p class="text-muted-foreground mt-2 text-sm">
+            More about my journey, beliefs, and the principles that guide my
+            thinking.
+          </p>
+        </a>
+      </div>
+    </section>
   </main>
   <Footer />
 </Layout>
