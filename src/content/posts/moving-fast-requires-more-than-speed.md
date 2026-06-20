@@ -1,6 +1,6 @@
 ---
 title: "Moving fast requires more than speed."
-pubDatetime: 2026-06-20T08:00:00.000Z
+pubDatetime: 2026-06-20T07:10:00.000Z
 description: "There is a common belief that quality and speed exist in tension. Over many years working with engineering teams, I have found the opposite. Quality is what creates sustainable speed."
 tags:
   - "leadership"
