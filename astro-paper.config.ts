@@ -5,12 +5,12 @@ export default defineAstroPaperConfig({
     url: "https://sarahtaraporewalla.com/",
     title: "Sarah Taraporewalla",
     description:
-      "Director of Enterprise Modernisation, Platforms and Cloud, ThoughtWorks Australia",
+      "Building strategic options through technology, engineering, and organisational design.",
     author: "Sarah Taraporewalla",
     profile: "https://www.linkedin.com/in/sarahtaraporewalla/",
     ogImage: "default-og.jpg",
     lang: "en",
-    timezone: "Australia/Sydney",
+    timezone: "Australia/Brisbane",
     dir: "ltr",
   },
   posts: {
