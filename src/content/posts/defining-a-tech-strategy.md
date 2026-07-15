@@ -12,7 +12,7 @@ draft: false
 
 Recently, I have been consulting to CTO/CIOs to help them create and execute the Technology Strategy for their company. I wanted to share the types of things that I consider during this process.
 
-![Me consulting](/assets/interaction.jpg){: .img-thumbnail}
+![Me consulting](/assets/interaction.jpg)
 
 To help set the direction for the creation of our Tech Strategy, I have found value in focusing around a document - creatively called the **_Tech Strategy document_**.
 
