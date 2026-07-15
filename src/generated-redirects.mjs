@@ -71,5 +71,6 @@ export const generatedRedirects = {
   "/feed.xml": "/rss.xml",
   "/agile/design/architecture/Defining-a-Tech-Strategy": "/writing/defining-a-tech-strategy",
   "/architecture/Event-Driven-Architecture-Terminology-": "/writing/event-driven-architecture-terminology",
+  "/architecture/Event-Driven-Architecture-Terminology": "/writing/event-driven-architecture-terminology",
   "/architecture/Is-Kafka-the-only-option-": "/writing/is-kafka-the-only-option"
 };
