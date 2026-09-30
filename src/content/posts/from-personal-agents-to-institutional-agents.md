@@ -61,6 +61,8 @@ A **Product Health agent** could continuously bring together customer behaviour,
 
 These aren't really personal assistants anymore. They're shared organisational capabilities.
 
+![Institutional agents](../../assets/images/institutional-agents.png)
+
 ## When an experiment becomes infrastructure
 
 I don't want this to mean that every useful agent needs to be centrally designed and governed from day one. In fact, I think that would destroy a lot of the value.
