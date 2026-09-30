@@ -16,11 +16,11 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@astrojs/mdx": "^6.0.1",
-    "@astrojs/rss": "^4.0.18",
-    "@astrojs/sitemap": "^3.7.3",
+    "@astrojs/mdx": "^8.0.2",
+    "@astrojs/rss": "^4.0.19",
+    "@astrojs/sitemap": "^3.7.4",
     "@tailwindcss/vite": "^4.3.1",
-    "astro": "^6.4.2",
+    "astro": "^7.3.5",
     "dayjs": "^1.11.21",
     "lodash.kebabcase": "^4.1.1",
     "rehype-callouts": "^2.1.2",
@@ -33,8 +33,8 @@
     "vite": "^7.3.5"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.9",
-    "@astrojs/markdown-remark": "^7.2.0",
+    "@astrojs/check": "^0.9.10",
+    "@astrojs/markdown-remark": "^7.3.1",
     "@pagefind/default-ui": "^1.5.2",
     "@shikijs/transformers": "^4.1.0",
     "@tailwindcss/typography": "^0.5.19",
